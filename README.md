@@ -1,5 +1,5 @@
 # Tree  
-```sh  
+```cpp  
 template <typename T, class Compare = std::less<>>  
 struct Heap {  
   std::vector<T> data;  
