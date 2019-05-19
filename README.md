@@ -62,4 +62,4 @@ void heap_sort(It first, It last, Compare cmp = Compare{}) {
     root--;  
     *root = heap.remove_max(cmp);  
   }  
-}  ```
+}
